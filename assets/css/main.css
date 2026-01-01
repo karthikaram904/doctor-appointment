@@ -6950,3 +6950,6 @@ color:#fff;
 .home2-btn-fill:hover,.h2-btn-primary:hover {
   color: #000;
 }
+.dark #navmenu .dropdown a {
+  color:#000;
+}
