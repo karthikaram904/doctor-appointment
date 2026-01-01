@@ -6956,3 +6956,6 @@ color:#fff;
 .dark #navmenu .dropdown a span {
   color: #fff;
 }
+.scrolled #navmenu a {
+  color: #000;
+}
