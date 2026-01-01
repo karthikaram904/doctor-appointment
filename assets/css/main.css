@@ -6953,3 +6953,6 @@ color:#fff;
 .dark #navmenu .dropdown a {
   color:#000 !important;
 }
+.dark #navmenu .dropdown a span {
+  color: #fff;
+}
