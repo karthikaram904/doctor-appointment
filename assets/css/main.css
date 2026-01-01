@@ -6951,5 +6951,5 @@ color:#fff;
   color: #000;
 }
 .dark #navmenu .dropdown a {
-  color:#000;
+  color:#000 !important;
 }
