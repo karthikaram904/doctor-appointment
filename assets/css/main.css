@@ -6992,3 +6992,7 @@ color:#fff;
   font-weight: 300;
   margin-bottom: 1rem;
 }
+.dark .about-content h3
+{
+  color:#fff;
+}
