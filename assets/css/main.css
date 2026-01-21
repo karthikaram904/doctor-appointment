@@ -6896,6 +6896,9 @@ body.dark .theme-btn {
     cursor: pointer;
     z-index: 9999;
   }
+  .home2 #navmenu ul {
+  background: #999;
+}
 }
 
 .home2-hero-content h1 {
