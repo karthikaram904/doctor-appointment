@@ -6883,6 +6883,19 @@ body.dark .theme-btn {
   {
     display:none;
   }
+  .branding .container {
+    position: relative;
+  }
+
+  .mobile-nav-toggle {
+    position: absolute;
+    right: 15px;          /* right corner */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 9999;
+  }
 }
 
 .home2-hero-content h1 {
