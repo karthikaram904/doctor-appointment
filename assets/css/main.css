@@ -6879,6 +6879,10 @@ body.dark .theme-btn {
   .emergency-left {
     flex-direction: column;
   }
+  #rtl-toggle,#theme-toggle
+  {
+    display:none;
+  }
 }
 
 .home2-hero-content h1 {
