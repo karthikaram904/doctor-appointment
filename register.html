@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      height: 140vh;
+      background: linear-gradient(135deg, #0d6efd, #5fa8ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+    .register-box {
+      background: #fff;
+      padding: 35px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 460px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .register-box h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .register-box p {
+      text-align: center;
+      color: #6c757d;
+      margin-bottom: 20px;
+    }
+    .logo_header img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="register-box">
+     <div class="text-center">
+  <a href="index.html" class="logo_header">
+    <img src="assets/img/doctors-appoint.png" alt="Logo">
+  </a>
+</div>
+    <h2>Create Account</h2>
+    <p>Register to manage appointments</p>
+
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Full Name</label>
+        <input type="text" class="form-control" placeholder="Dr. John Doe" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email address</label>
+        <input type="email" class="form-control" placeholder="doctor@example.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" placeholder="9876543210" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Specialization</label>
+        <select class="form-select" required>
+          <option value="">Select Specialization</option>
+          <option>General Physician</option>
+          <option>Cardiologist</option>
+          <option>Dermatologist</option>
+          <option>Pediatrician</option>
+          <option>Orthopedic</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" placeholder="********" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" placeholder="********" required>
+      </div>
+
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="terms" required>
+        <label class="form-check-label" for="terms">
+          I agree to the <a href="#">Terms & Conditions</a>
+        </label>
+      </div>
+
+      <div class="d-grid">
+        <a href="login.html" class="btn btn-primary">
+          <i class="fa fa-user-plus"></i> Register
+        </a>
+      </div>
+    </form>
+
+    <p class="text-center mt-3">
+      Already have an account?  
+      <a href="login.html" class="text-decoration-none">Login</a>
+    </p>
+  </div>
+
+</body>
+</html>
